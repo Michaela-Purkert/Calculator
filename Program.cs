@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Calculator;
+
+Console.WriteLine("Welcome to the simple calculator!\n");
+
+SimpleCalculator calculator = new SimpleCalculator();
+
+calculator.Menu();
